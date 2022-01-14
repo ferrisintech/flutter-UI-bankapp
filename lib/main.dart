@@ -4,7 +4,6 @@ import 'package:bankapp/splash/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-
 void main() {
   runApp(MyApp());
 }
@@ -23,10 +22,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Splash(),
       //home: Home(),
-      routes: {
-        //ProfilePage.routeProfile: (ctx) => ProfilePage(),
-        //SignUpPage.routeReg: (ctx) => SignUpPage(),
-      },
     );
   }
 }
